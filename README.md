@@ -1,15 +1,20 @@
 Follow link [how-to-use-doxyge    n-to-create-uml-class-diagrams-from-c-source](https://stackoverflow.com/questions/4755913/how-to-use-doxygen-to-create-uml-class-diagrams-from-c-source)
 
 使用 doxygen 生成 UML 和 文档
-使用的配置文件
+
 
 **Edition**
+
 fedora 29 workstation x86_64
+
 doxygen-1.8.14-7.fc29.x86_64
+
 graphviz-2.40.1-39.fc29.x86_64
 
 `doxygen -g newconfigdoxgen.config`
+
 修改生成的配置文件
+
 ```text
 EXTRACT_ALL          = YES
 CLASS_DIAGRAMS      = YES
