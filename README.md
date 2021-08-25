@@ -11,7 +11,7 @@ doxygen-1.8.14-7.fc29.x86_64
 
 graphviz-2.40.1-39.fc29.x86_64
 
-`doxygen -g newconfigdoxgen.config`
+`doxygen -g newconfigdoxygen.config`
 
 修改生成的配置文件
 
